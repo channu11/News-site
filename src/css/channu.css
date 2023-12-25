@@ -1,0 +1,518 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Serif", serif;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1500px;
+  }
+}
+.head {
+  background: #000;
+}
+
+.cell {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.mail {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.facebook {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.twitter {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.google {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.pinterest {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.insta {
+  border-left: 1px solid #acabab;
+  border-right: 1px solid #acabab;
+  padding: 0px 10px;
+}
+
+.tright .icon {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.tright .icon:hover {
+  -webkit-transform: rotate(360deg) translateZ(0);
+          transform: rotate(360deg) translateZ(0);
+}
+
+.navbar {
+  background-color: #FF322E !important;
+}
+
+.nav-link {
+  color: white;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.nav-link:hover {
+  color: #fff;
+}
+
+.box {
+  border: 1px solid red;
+  padding: 10px;
+  margin: -24px 0px;
+  text-align: center;
+}
+.box:hover {
+  background-color: red;
+}
+
+.search {
+  position: relative;
+  background-color: transparent;
+  -webkit-box-shadow: 3px 0 16px 8px rgba(9, 12, 26, 0.09);
+          box-shadow: 3px 0 16px 8px rgba(9, 12, 26, 0.09);
+  margin-top: -15px;
+  margin-bottom: -15px;
+  border: none;
+}
+.search .searchicon {
+  position: absolute;
+  left: 50px !important;
+  bottom: 50px;
+  color: #fff;
+}
+
+.img4 {
+  height: 215px;
+}
+
+.baner {
+  position: relative;
+}
+.baner .under {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  color: #fff;
+}
+.baner .under .btn1 {
+  background-color: #FF322E;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #FF322E;
+  margin-bottom: 10px;
+}
+.baner .under a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.baner .under a:hover {
+  text-decoration: underline;
+}
+
+.baner1 {
+  position: relative;
+}
+.baner1 .under1 {
+  position: absolute;
+  top: 280px;
+  left: 30px;
+  color: #fff;
+}
+.baner1 .under1 .btn1 {
+  background-color: #FF322E;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #FF322E;
+  margin-bottom: 10px;
+}
+.baner1 .under1 a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.baner1 .under1 a:hover {
+  text-decoration: underline;
+}
+
+.baner {
+  position: relative;
+}
+.baner .under {
+  position: absolute;
+  top: 320px;
+  left: 30px;
+  color: #fff;
+}
+.baner .under .btn1 {
+  background-color: #FF322E;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #FF322E;
+  margin-bottom: 10px;
+}
+.baner .under a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.baner .under a:hover {
+  text-decoration: underline;
+}
+
+.baner2 {
+  position: relative;
+}
+.baner2 .under2 {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  color: #fff;
+}
+.baner2 .under2 .btn1 {
+  background-color: #FF322E;
+  color: #fff;
+  padding: 10px 20px;
+  font-weight: 500;
+  font-size: 20px;
+  border: 1px solid #FF322E;
+  margin-bottom: 10px;
+}
+.baner2 .under2 a {
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
+  text-decoration: none;
+}
+.baner2 .under2 a:hover {
+  text-decoration: underline;
+}
+
+.adds {
+  margin-top: 30px;
+}
+.adds .anglel {
+  background-color: #FF322E;
+  padding: 16px 10px 19px 10px;
+  font-size: 21px;
+  color: #fff;
+}
+.adds .angler {
+  background-color: #FF322E;
+  padding: 16px 10px 19px 10px;
+  font-size: 21px;
+  color: #fff;
+  margin-left: 1px;
+}
+
+.bnews {
+  padding: 20px;
+  border: 1px solid #FF322E;
+  background-color: #FF322E;
+  color: #fff;
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 21px;
+  margin-left: -10px;
+  padding-right: 670px;
+}
+
+.outline {
+  border: 1px solid #dfd8d8;
+  margin: 40px 0px;
+  padding: 15px 15px;
+}
+.outline h2 {
+  border-bottom: 20px solid #FF322E;
+  width: 390px;
+  padding-bottom: 8px;
+}
+
+.baner1 a {
+  text-decoration: none;
+  color: black;
+}
+.baner1 a:hover {
+  text-decoration: underline;
+}
+
+.box1 {
+  border: 1px solid #dfd8d8;
+}
+.box1 img {
+  width: 150px;
+}
+
+.btn-group {
+  background-color: #fff;
+  color: #797777;
+}
+.btn-group .btn2 {
+  background-color: #fff;
+  color: #797777;
+  font-weight: 500;
+}
+.btn-group .btn2:hover {
+  background-color: #FF322E;
+  color: #fff;
+}
+
+.box2 {
+  border: 1px solid #dfd8d8;
+  padding: 10px;
+}
+.box2 ul li {
+  list-style: none;
+}
+.box2 ul li a {
+  text-decoration: none;
+  color: #847d7d;
+  font-weight: 700;
+  font-size: 20px;
+}
+.box2 ul li a:hover {
+  color: #FF322E;
+}
+.box2 ul hr {
+  width: 451px;
+  margin-left: -42px;
+}
+
+.cat {
+  border-bottom: 8px solid #FF322E;
+  width: 210px;
+  padding-bottom: 5px;
+  margin-bottom: 50px;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.feat {
+  border-bottom: 8px solid #FF322E;
+  width: 380px;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.video {
+  margin-bottom: 10px;
+  height: 110px;
+}
+
+.bb {
+  position: relative;
+}
+.bb:hover {
+  opacity: 0.6;
+}
+.bb .play {
+  position: absolute;
+  top: 30px;
+  left: 80px;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+
+.add2 {
+  width: 920px !important;
+}
+
+.ss {
+  border-bottom: 8px solid #FF322E;
+  width: 280px;
+  padding: 5px 0px 5px 0px;
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.btn4 {
+  width: 400px;
+  background-color: #FF322E;
+  border: 1px solid #FF322E;
+  color: #fff;
+  border-radius: 0px;
+  margin-top: 20px;
+  padding: 14px 5px 14px 5px;
+  font-size: 25px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #FF322E;
+  text-align: center;
+}
+
+.bg1 {
+  background-color: #111111;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #FF322E;
+  color: white !important;
+}
+
+.footer1 {
+  background-color: #111111;
+}
+
+.ficon i {
+  background-color: #FF322E;
+  padding: 7px 10px;
+}
+.ficon i:hover {
+  background-color: red;
+}
+
+.ll a {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nn {
+  border-bottom: 15px solid #FF322E;
+  width: 210px;
+}
+
+.btn5 {
+  background-color: transparent;
+  color: #c7c2c2;
+  border: 0.5px solid #a7a4a4;
+}
+.btn5:hover {
+  background-color: #FF322E;
+  color: #fff;
+  border: 1px solid #FF322E;
+}
+
+.m {
+  height: 345px !important;
+}
+
+.mm {
+  margin-top: 60px !important;
+}
+.mm li a {
+  font-size: 25px !important;
+  margin: 8px;
+  padding: 5px 15px;
+  color: #7b7979;
+}
+
+.aa {
+  background-color: #FF322E;
+  border: 1px solid #FF322E;
+  color: #fff !important;
+}/*# sourceMappingURL=channu.css.map */
